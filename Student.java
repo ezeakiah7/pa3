@@ -53,11 +53,11 @@ public class Student {
         // return the value of instance variable gpa
 		return gpa;
 	}
-
+    // Default constructor that initializes a student with default values for first name, last name, major, and GPA.
 	public Student() {
 		this("", "", "", 0.0);
 	}
-
+    // parameterized constructor that initializes a student with default values for first name, last name, major, and GPA.
 	public Student(String firstName, String lastName, String major, double gpa) {
 		this.firstName = firstName;
 		this.lastName = lastName;
