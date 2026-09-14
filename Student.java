@@ -3,6 +3,9 @@ package edu.txst.constructors;
 /*
  * Student.java
  * This class represents a student with basic information.
+ * Includes private instance variables for first name, last name, major, and GPA.
+ * Provides public getter and setter methods for each variable.
+ * Includes a default constructor and a parameterized constructor.
  */
 
 public class Student {
@@ -64,7 +67,7 @@ public class Student {
 		this.major = major;
 		this.gpa = gpa;
 	}
-       
+       // main method to test the Student class
 	public static void main(String[] args) {
 		Student student1 = new Student();
 		System.out.println("First name: " + student1.getFirstName());
